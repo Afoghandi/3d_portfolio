@@ -12,7 +12,7 @@ import {
 	StarsCanvas,
 } from './components';
 
-function App() {
+const App = () => {
 	return (
 		<BrowserRouter>
 			<div className='relative z-0 bg-primary'>
@@ -32,6 +32,6 @@ function App() {
 			</div>
 		</BrowserRouter>
 	);
-}
+};
 
 export default App;
