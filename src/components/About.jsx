@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
+
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
@@ -43,11 +44,13 @@ const About = () => {
 				variants={fadeIn('', '', 0.1, 1)}
 				className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] '
 			>
-				I'm a skilled software developer with experience in c# and Javascrip,
-				and expertise in frameworks like React, Node.js and Three.js. I'm a
-				quick learner and collaborate closely with clients to create
-				efficiecient, scalable and user-friendly solutions that solve real-world
-				problems. Let's work together to bring your ideas to life
+				With a strong background in software development, I possess extensive
+				experience in C# and JavaScript. My expertise lies in utilizing
+				frameworks such as React, Node.js, and Three.js to their full potential.
+				As a fast learner, I thrive on collaborating closely with clients to
+				develop effective, scalable, and user-friendly solutions that tackle
+				real-world challenges. Let's join forces and transform your ideas into
+				reality.
 			</motion.p>
 			<div className='mt-20 flex flex-wrap gap-10'>
 				{services.map((service, index) => (

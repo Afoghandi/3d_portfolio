@@ -1,7 +1,7 @@
 import { Tilt } from 'react-tilt';
 import { motion, spring } from 'framer-motion';
 import { styles } from '../styles';
-import { github } from '../assets';
+import { github, liveCode } from '../assets';
 
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -14,6 +14,7 @@ const ProjectCard = ({
 	tags,
 	image,
 	source_code_link,
+	live_code_link,
 }) => {
 	return (
 		<motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
@@ -43,12 +44,12 @@ const ProjectCard = ({
 							/>
 						</div>
 						<div
-							onClick={() => window.open(source_code_link, '_blank')}
-							className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+							onClick={() => window.open(live_code_link, '_blank')}
+							className='light-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
 						>
 							<img
-								src={github}
-								alt='github'
+								src={liveCode}
+								alt='live code'
 								className='w-1/2 h-1/2 object-contain'
 							/>
 						</div>
@@ -60,7 +61,7 @@ const ProjectCard = ({
 				</div>
 				<div className='mt-4 flex flex-wrap gap-2'>
 					{tags.map((tag) => (
-						<p key={tag.name} className={`texxt-[14px] ${tag.color}`}>
+						<p key={tag.name} className={`text-[14px] ${tag.color}`}>
 							{tag.name}{' '}
 						</p>
 					))}
@@ -81,10 +82,12 @@ const Works = () => {
 					variants={fadeIn('', '', 0.1, 1)}
 					className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] '
 				>
-					Following projects showcase my skills and experience through
-					real-world exampleas of my work. Each prokect is briefly described
-					with links to code repositories and live demos in it. It reflects my
-					ability to solve complex problems, work with different technologies.
+					I have curated a collection of projects that effectively demonstrate
+					my skills and experience in solving real-world problems. Each project
+					is accompanied by concise descriptions and includes links to code
+					repositories and live demos. This portfolio showcases my proficiency
+					in tackling complex challenges and my versatility in working with
+					diverse technologies.
 				</motion.p>
 			</div>
 			<div className='mt-20 flex flex-wrap gap-7'>
@@ -96,4 +99,4 @@ const Works = () => {
 	);
 };
 
-export default SectionWrapper(Works, '');
+export default SectionWrapper(Works, 'projects');
