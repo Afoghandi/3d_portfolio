@@ -171,35 +171,35 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
-			'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-		name: 'Sara Lee',
+			'I thought it was impossible to make a website as beautiful as our product, but Ralphael proved me wrong.',
+		name: 'Alhaja Bakare',
 		designation: 'CFO',
-		company: 'Acme Co',
+		company: 'Imam Travels',
 		image: 'https://randomuser.me/api/portraits/women/4.jpg',
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: 'Chris Brown',
-		designation: 'COO',
-		company: 'DEF Corp',
+			"I've never met a web developer who truly cares about their clients' success like Ralphael does.",
+		name: 'Otunba Rotimi',
+		designation: 'CEO',
+		company: 'Royal Tosh',
 		image: 'https://randomuser.me/api/portraits/men/5.jpg',
 	},
 	{
 		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: 'Lisa Wang',
+			"After Ralphael optimized our website, our traffic increased by 50%. We can't thank them enough!",
+		name: 'Dr Femi Tanni',
 		designation: 'CTO',
-		company: '456 Enterprises',
+		company: 'Medicare',
 		image: 'https://randomuser.me/api/portraits/women/6.jpg',
 	},
 ];
 
 const projects = [
 	{
-		name: 'HooBank',
+		name: 'Social Media',
 		description:
-			'This visually captivating page incorporates smooth scroll functionality, allowing seamless navigation between sections. By skillfully employing gradients, the page enhances the visual appeal and ensures that images truly stand out.',
+			'Immerse yourself in a comprehensive MERN social media application. Connect with friends, share thoughts through comments, like posts, and effortlessly manage your social circle.',
 		tags: [
 			{
 				name: 'react',
@@ -209,6 +209,25 @@ const projects = [
 				name: 'mongodb',
 				color: 'green-text-gradient',
 			},
+			{
+				name: 'css',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: tripguide,
+		source_code_link: 'https://github.com/Afoghandi/socialMediaApp',
+		live_code_link: 'https://main--sparkly-horse-c4b494.netlify.app/',
+	},
+	{
+		name: 'HooBank',
+		description:
+			'This visually captivating page incorporates smooth scroll functionality, allowing seamless navigation between sections. By skillfully employing gradients, the page enhances the visual appeal and ensures that images truly stand out.',
+		tags: [
+			{
+				name: 'react',
+				color: 'blue-text-gradient',
+			},
+
 			{
 				name: 'tailwind',
 				color: 'pink-text-gradient',
@@ -237,6 +256,7 @@ const projects = [
 		source_code_link: 'https://github.com/Afoghandi/RoyalTosh/tree/main',
 		live_code_link: 'https://enchanting-platypus-3c1ea2.netlify.app',
 	},
+
 	{
 		name: 'Geritch Kitchen',
 		description: `Join us for an exceptional dining experience on this extraordinary static web page, meticulously crafted with React and CSS. Designed to be fully mobile-responsive, it adapts seamlessly to any device. Prepare for an unforgettable culinary journey!`,
@@ -254,49 +274,6 @@ const projects = [
 		image: geritch,
 		source_code_link: 'https://github.com/Afoghandi/gerich',
 		live_code_link: 'https://jazzy-brioche-d6e7ca.netlify.app',
-	},
-	{
-		name: 'Trip Guide',
-		description:
-			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-		tags: [
-			{
-				name: 'nextjs',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'supabase',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'css',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: tripguide,
-		source_code_link: 'https://github.com/',
-	},
-	{
-		name: 'Trip Guide',
-		description:
-			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-		tags: [
-			{
-				name: 'nextjs',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'supabase',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'css',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: tripguide,
-		source_code_link: 'https://github.com/',
-		live_code_link: 'https://transcendent-genie-00482d.netlify.app',
 	},
 ];
 
