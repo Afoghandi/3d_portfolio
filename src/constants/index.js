@@ -216,7 +216,7 @@ const projects = [
 		],
 		image: tripguide,
 		source_code_link: 'https://github.com/Afoghandi/socialMediaApp',
-		live_code_link: 'https://main--sparkly-horse-c4b494.netlify.app/',
+		live_code_link: 'https://oshunmedia.netlify.app',
 	},
 	{
 		name: 'HooBank',
@@ -235,7 +235,7 @@ const projects = [
 		],
 		image: hoobank,
 		source_code_link: 'https://github.com/Afoghandi/ModernBank',
-		live_code_link: 'https://transcendent-genie-00482d.netlify.app',
+		live_code_link: 'https://nextgenbank.netlify.app',
 	},
 	{
 		name: 'GPT-3',
@@ -254,7 +254,7 @@ const projects = [
 		],
 		image: gpt3,
 		source_code_link: 'https://github.com/Afoghandi/RoyalTosh/tree/main',
-		live_code_link: 'https://enchanting-platypus-3c1ea2.netlify.app',
+		live_code_link: 'https://oshungp3.netlify.app',
 	},
 
 	{
@@ -273,7 +273,7 @@ const projects = [
 		],
 		image: geritch,
 		source_code_link: 'https://github.com/Afoghandi/gerich',
-		live_code_link: 'https://jazzy-brioche-d6e7ca.netlify.app',
+		live_code_link: 'https://oshunkitchen.netlify.app',
 	},
 ];
 
