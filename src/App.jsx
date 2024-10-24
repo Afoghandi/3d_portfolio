@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-
+//import { HashRouter } from 'react-router-dom';
 import {
 	About,
 	Contact,
@@ -14,7 +14,7 @@ import {
 
 const App = () => {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename='/3d_portfolio/'>
 			<div className='relative z-0 bg-primary'>
 				<div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
 					<Navbar />
