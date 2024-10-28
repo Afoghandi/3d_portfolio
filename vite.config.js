@@ -7,7 +7,7 @@ import { visualizer } from 'rollup-plugin-visualizer';
 export default defineConfig({
   base: '/3d_portfolio/',
   build :{
-    outDir: 'build', // Add this line to set the output directory to 'build'
+    outDir: 'dist', // Add this line to set the output directory to 'build'
   },
   plugins: [
     react(),
